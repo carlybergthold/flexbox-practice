@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item {
+    margin: 1em;
+    flex: 1 400px;
+}
+
+.item1 {
+    background-color: #F77659;
+}
+
+.item2 {
+    background-color: #F9DD02;
+}
+
+.item3 {
+    background-color: #127596;
+}
+
+.item4 {
+    background-color: #C2EDF9;
+}
+
+.item5 {
+    background-color: #326391;
+}
+
+.item6 {
+    background-color: gray;
+}
