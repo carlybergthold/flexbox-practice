@@ -1,3 +1,7 @@
+header {
+    text-align: center;
+}
+
 .flex-container {
     display: flex;
     flex-flow: row wrap;
@@ -6,6 +10,7 @@
 .item {
     margin: 1em;
     flex: 1 400px;
+    height: 18em;
 }
 
 .item1 {
@@ -14,6 +19,7 @@
 
 .item2 {
     background-color: #F9DD02;
+    flex-grow: 3;
 }
 
 .item3 {
@@ -26,6 +32,7 @@
 
 .item5 {
     background-color: #326391;
+    flex-grow: 3;
 }
 
 .item6 {
